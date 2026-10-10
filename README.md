@@ -1,119 +1,43 @@
-﻿# ðŸ“š Flashcard Quiz App
+﻿# Flashcard Quiz App
 
 An interactive **Android Flashcard Quiz App** developed as part of the **CodeAlpha Internship**.
 
-The application allows users to create, manage, edit, delete, and review flashcards through a clean and simple Android interface. It supports persistent local storage using SQLite and includes both light and dark mode.
+This application provides a simple and effective way for users to test their knowledge using flashcards. Users can create, view, edit, and delete flashcards, with all data stored locally on the device using SQLite. 
 
-## âœ¨ Features
+## Features
 
-- Create new flashcards
-- View saved flashcards
-- Edit existing flashcards
-- Delete flashcards with confirmation
-- Show/Hide flashcard answers
-- Previous and Next flashcard navigation
-- SQLite database for local data storage
-- Dark Mode support
-- Material Design based UI
-- Splash Screen
-- Clean and user-friendly interface
+- **Create and Edit:** Easily add new flashcards with questions and answers, or modify existing ones.
+- **Review Mode:** Flip through cards to test your memory.
+- **Local Storage:** All flashcards are saved securely on your device using a SQLite database.
+- **Clean Interface:** Built with Material Design principles for a smooth, intuitive user experience.
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 - **Java**
-- **Android Studio**
+- **Android SDK**
 - **SQLite**
 - **Material Design**
-- **Gradle**
 
-## ðŸ“‚ Project Structure
+## Installation
 
-```text
-CodeAlpha_FlashcardQuizApp/
-â”œâ”€â”€ app/
-â”œâ”€â”€ gradle/
-â”œâ”€â”€ add-flashcard.jpeg
-â”œâ”€â”€ dark-mode.jpeg
-â”œâ”€â”€ delete-dialog.jpeg
-â”œâ”€â”€ light-mode.jpeg
-â”œâ”€â”€ splash.jpeg
-â”œâ”€â”€ build.gradle.kts
-â”œâ”€â”€ gradle.properties
-â”œâ”€â”€ gradlew
-â”œâ”€â”€ gradlew.bat
-â”œâ”€â”€ settings.gradle.kts
-â””â”€â”€ README.md
-```
+1. **Clone the repository:**
+   `ash
+   git clone https://github.com/PhaseDev6/CodeAlpha_FlashcardQuizApp.git
+   `
+2. **Open in Android Studio:**
+   Launch Android Studio and open the cloned project directory.
+3. **Build & Run:**
+   Sync the Gradle files and run the app on an Android device or emulator.
 
-## ðŸš€ Installation
+## Learning Outcomes
 
-### 1. Clone the repository
+This project provided hands-on experience with:
+- Android Activity lifecycle and UI development
+- SQLite database integration and CRUD operations
+- Implementing Material Design themes and components
+- Managing application state and user interactions in Java
 
-```bash
-git clone https://github.com/PhaseDev6/CodeAlpha_FlashcardQuizApp.git
-```
+## Developed By
 
-### 2. Open the project
-
-Open **Android Studio** and select **Open an Existing Project**.
-
-Then select the cloned `CodeAlpha_FlashcardQuizApp` folder.
-
-### 3. Sync Gradle
-
-Allow Android Studio to complete the Gradle synchronization.
-
-### 4. Run the application
-
-Connect an Android device or start an emulator and click **Run**.
-
-## ðŸ“¸ Screenshots
-
-### Splash Screen
-
-![Splash Screen](./splash.jpeg)
-
-### Main Screen - Light Mode
-
-![Light Mode](./light-mode.jpeg)
-
-### Main Screen - Dark Mode
-
-![Dark Mode](./dark-mode.jpeg)
-
-### Add Flashcard
-
-![Add Flashcard](./add-flashcard.jpeg)
-
-### Delete Confirmation Dialog
-
-![Delete Confirmation Dialog](./delete-dialog.jpeg)
-
-## ðŸ’¡ Key Learning Outcomes
-
-Through this project, I strengthened my understanding of:
-
-- Android application development using Java
-- SQLite database integration
-- CRUD operations
-- Android Activity and UI lifecycle
-- Material Design principles
-- Dark and Light theme implementation
-- Local data persistence
-- User input handling and validation
-- Debugging and application testing
-- Git and GitHub version control
-
-## ðŸŽ¯ Internship Project
-
-This project was developed as part of my **CodeAlpha Internship**, with a focus on practical Android development and implementing useful real-world application features.
-
-## ðŸ‘¨â€ðŸ’» Developed By
-
-**Dhruv Chamola**
-
+**Dhruv Chamola**  
 CodeAlpha Internship Project
-
-## ðŸ“„ License
-
-This project is developed for educational, learning, and internship purposes.
