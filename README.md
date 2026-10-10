@@ -1,10 +1,10 @@
-# 📚 Flashcard Quiz App
+﻿# ðŸ“š Flashcard Quiz App
 
 An interactive **Android Flashcard Quiz App** developed as part of the **CodeAlpha Internship**.
 
 The application allows users to create, manage, edit, delete, and review flashcards through a clean and simple Android interface. It supports persistent local storage using SQLite and includes both light and dark mode.
 
-## ✨ Features
+## âœ¨ Features
 
 - Create new flashcards
 - View saved flashcards
@@ -18,7 +18,7 @@ The application allows users to create, manage, edit, delete, and review flashca
 - Splash Screen
 - Clean and user-friendly interface
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
 - **Java**
 - **Android Studio**
@@ -26,31 +26,31 @@ The application allows users to create, manage, edit, delete, and review flashca
 - **Material Design**
 - **Gradle**
 
-## 📂 Project Structure
+## ðŸ“‚ Project Structure
 
 ```text
 CodeAlpha_FlashcardQuizApp/
-├── app/
-├── gradle/
-├── add-flashcard.jpeg
-├── dark-mode.jpeg
-├── delete-dialog.jpeg
-├── light-mode.jpeg
-├── splash.jpeg
-├── build.gradle.kts
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle.kts
-└── README.md
+â”œâ”€â”€ app/
+â”œâ”€â”€ gradle/
+â”œâ”€â”€ add-flashcard.jpeg
+â”œâ”€â”€ dark-mode.jpeg
+â”œâ”€â”€ delete-dialog.jpeg
+â”œâ”€â”€ light-mode.jpeg
+â”œâ”€â”€ splash.jpeg
+â”œâ”€â”€ build.gradle.kts
+â”œâ”€â”€ gradle.properties
+â”œâ”€â”€ gradlew
+â”œâ”€â”€ gradlew.bat
+â”œâ”€â”€ settings.gradle.kts
+â””â”€â”€ README.md
 ```
 
-## 🚀 Installation
+## ðŸš€ Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Ashutosh9-pan/CodeAlpha_FlashcardQuizApp.git
+git clone https://github.com/PhaseDev6/CodeAlpha_FlashcardQuizApp.git
 ```
 
 ### 2. Open the project
@@ -67,7 +67,7 @@ Allow Android Studio to complete the Gradle synchronization.
 
 Connect an Android device or start an emulator and click **Run**.
 
-## 📸 Screenshots
+## ðŸ“¸ Screenshots
 
 ### Splash Screen
 
@@ -89,7 +89,7 @@ Connect an Android device or start an emulator and click **Run**.
 
 ![Delete Confirmation Dialog](./delete-dialog.jpeg)
 
-## 💡 Key Learning Outcomes
+## ðŸ’¡ Key Learning Outcomes
 
 Through this project, I strengthened my understanding of:
 
@@ -104,16 +104,16 @@ Through this project, I strengthened my understanding of:
 - Debugging and application testing
 - Git and GitHub version control
 
-## 🎯 Internship Project
+## ðŸŽ¯ Internship Project
 
 This project was developed as part of my **CodeAlpha Internship**, with a focus on practical Android development and implementing useful real-world application features.
 
-## 👨‍💻 Developed By
+## ðŸ‘¨â€ðŸ’» Developed By
 
-**Ashutosh Panwar**
+**Dhruv Chamola**
 
 CodeAlpha Internship Project
 
-## 📄 License
+## ðŸ“„ License
 
 This project is developed for educational, learning, and internship purposes.
